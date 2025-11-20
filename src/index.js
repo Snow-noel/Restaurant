@@ -3,5 +3,7 @@ import { home } from "./home";
 import "./styles.css";
 const button=document.getElementById("home")
 button.addEventListener("click",()=>{
-    home("snow");
+    const main =document.getElementById("main-content");
+    main.innerHTML="";
+    home();
 })
