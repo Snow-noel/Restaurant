@@ -15,8 +15,8 @@ export const home=()=>{
       top.textContent="Welcome To Kumadya"
       myimage.src=barger;
       myimage.style.cssText=`
-      height:50%;
-      width:100%;
+      height:250px;
+      min-width:100%;
       border-radius:10px;
       `
       content.classList.add("content")
@@ -31,6 +31,6 @@ export const home=()=>{
       content.append(top,message,bottom)
       setTimeout(()=>{
          section.classList.add("show")
-      },15)
+      },20)
 
 }
