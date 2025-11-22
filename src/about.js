@@ -34,8 +34,8 @@ export const about=()=>{
   visioncontent.textContent=`Our vision is to become the most loved restaurant in our community —
    known for our outstanding food, friendly service, and a dining atmosphere that brings people together.`
 
-  main.append(aboutContainer,myname);
-  aboutContainer.append(chooseContainer,missioncontainer,visionContainer)
+  main.append(aboutContainer);
+  aboutContainer.append(chooseContainer,missioncontainer,visionContainer,myname)
   chooseContainer.append(choose,chooseContent)
   missioncontainer.append(mission,missionContent)
   visionContainer.append(vision,visioncontent)
