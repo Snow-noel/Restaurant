@@ -142,7 +142,6 @@ button{
     border-radius: 8px;
     border: none;
     outline: none;
-    width: 60%;
 }
 .foods{
     display: flex;
